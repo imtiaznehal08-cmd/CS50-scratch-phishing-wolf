@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: It scales at an O(n^2) rate but shows slightly better performance than Sort 3 on smaller datasets, suggesting it benefits from fewer swaps or early exits.
+
+sort2 uses: merge sort
+
+How do you know?: It is the most efficient algorithm, scaling at O(nlogn) and finishing the largest files significantly faster than the others.
+
+sort3 uses: selection sort
+
+How do you know?: It is the slowest O(n^2) algorithm because it consistently performs a full scan of the remaining elements for every position in the array.
