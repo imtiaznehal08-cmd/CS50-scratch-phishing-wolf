@@ -1,4 +1,5 @@
 **CS50x Week 4: Memory**
+
 This folder contains my implementations for the Week 4 Problem Set, focusing on low-level memory management, pointer arithmetic, and file I/O in C.
 
 **📂 Projects**
@@ -35,13 +36,14 @@ File: recover.c
 Each program can be compiled using the make command provided in the CS50 environment:
 
 Bash
-# Example: Compiling and running Filter
+ Example: Compiling and running Filter
 make filter
 ./filter -g input.bmp output.bmp
 
-# Example: Compiling and running Recover
+ Example: Compiling and running Recover
 make recover
 ./recover card.raw
+
 🔍 **Memory Safety**
 All programs have been tested with Valgrind to ensure:
 
